@@ -1,0 +1,251 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;    
+    font: 100% Arial, Helvetica, sans-serif;
+    
+    overflow: hidden;
+}
+
+div.pattern {
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+    cursor: pointer;
+	
+}
+
+a {
+	
+	color: #000000;
+	text-decoration: none;
+	
+	border-bottom: 1px dotted black;
+	
+}
+
+a:hover {
+	
+	border-bottom-style: solid;
+	
+}
+
+div#content {
+	
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+		
+}
+
+div#button {
+
+	display: none;
+	
+	position: absolute;
+	top: 0;
+	bottom: 10%;
+	right: 0;
+	left: 0;
+	
+	height: 14.625em;	
+	width: 14.625em;
+	
+	border-radius: 50%;
+	
+	margin: auto;
+	
+	background: -webkit-radial-gradient(circle farthest-corner, rgba(38,38,38,0.25), rgba(38,38,38,0.4));
+	background: -moz-radial-gradient(circle farthest-corner, rgba(38,38,38,0.25), rgba(38,38,38,0.4));
+	background: -o-radial-gradient(circle farthest-corner, rgba(38,38,38,0.25), rgba(38,38,38,0.4));
+	/*box-shadow:  0 1px 0 0 rgba(255,255,255,0.35);*/
+	
+	cursor: pointer;
+	
+	text-align: center;
+		
+}
+
+div#button.zeroclipboard-is-hover, div#button.copied {
+
+	background: -webkit-radial-gradient(circle farthest-corner, rgba(51,51,51,0.9), rgba(51,51,51,1));
+	background: -moz-radial-gradient(circle farthest-corner, rgba(51,51,51,0.9), rgba(51,51,51,1));
+	background: -o-radial-gradient(circle farthest-corner, rgba(51,51,51,0.9), rgba(51,51,51,1));
+
+}
+
+div#button.copied {
+ 
+	cursor: auto;
+	
+}
+
+div#button div#link-fallback {
+	
+	margin-top: 5.1833em;
+		
+}
+
+div#button div#link-fallback p {
+
+	display: block;	
+	line-height: normal;
+	margin: 0;
+	
+}
+
+div#button div#link-fallback input {
+
+	margin-top: 0.625em;
+	height: 1.5em;
+	width:  9.5em;
+	padding: 0.25em;
+	
+	background: rgba(255,255,255,0.1);
+	color: rgba(255,255,255,0.8);
+	
+	border: none;
+	border-radius: 2px;
+	
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.25);
+	
+	box-shadow: inset 0px -1px 2px rgba(0,0,0,0.4);
+}
+
+div#button p {
+
+	display: inline;
+	line-height: 234px;		
+					
+	color: #f0f0f0;
+	
+	text-transform: uppercase;
+	
+	border-bottom: 1px dotted #f0f0f0;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+
+}
+
+div#button.zeroclipboard-is-hover p {
+
+	border-bottom-style: solid;
+
+}
+
+div#button p.copied {
+
+	color: rgba(255,255,255,0.5);
+	text-shadow: none !important;
+	border-bottom: none !important;
+	text-transform: none;
+
+}
+
+p {
+	
+	font-size: 0.75em;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.25);
+	
+}
+
+p#explore {
+
+	text-align: center;
+	line-height: 0.7;
+	position:absolute; top:0; bottom:0; left:0; right:0;
+	height:44px; width: 10%;
+	margin: auto 45% auto 45%;
+
+}
+
+p.css-link {
+
+	position: absolute;
+	right: 2em;
+	top: 2em;
+	margin: 0;
+	
+	text-transform: uppercase;
+	
+}
+
+div#css {
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	right: 0;
+	
+	padding: 5%;
+	width: 75%;
+
+	background-color: #2a2a2a;
+	box-shadow: 2px 0 4px 0 rgba(0,0,0,0.75) inset;
+	
+	font-family: "Courier New", monospace;
+	color: white;
+	line-height: 1.5em;	
+	
+	cursor: auto;
+	overflow: hidden;
+}
+
+div#css div {
+	
+	overflow: scroll;
+
+}
+
+p#author {
+
+	position: absolute;
+	left: 2em;
+	bottom: 2em;
+	margin: 0;
+
+}
+
+p#version {
+
+	position: absolute;
+	right: 2em;
+	bottom: 2em;
+	margin: 0;
+
+}
+
+.definator {
+	display: none;
+}
+
+div#share {
+
+	position: absolute;
+	left: 2em;
+	top: 2em;
+	margin: 0;
+	
+}
+
+div#share .fb-like {
+
+	margin-top: 3px;
+
+}
+
+div#share .fb_iframe_widget {
+	
+	display: block !important;
+	
+}
